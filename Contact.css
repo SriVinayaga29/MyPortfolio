@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Poppins;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+body{
+    background-image:linear-gradient(#A1D6E2,#1995AD) ;
+    font-family: poppins;
+}
+.top{
+    display:flex;
+    margin: 0 auto;
+    padding: 3px;
+    justify-content: center;
+   
+}
+.topbar{
+    display:flex;
+    background-color:  #1995AD;
+    margin:auto;
+    padding: 3px;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar-left{
+    font-size: 40px;
+    color: white;
+}
+.sri{
+    color: rgb(244, 200, 39);
+}
+
+.topbar-right ul{
+    display: flex;
+    gap:20px;
+     
+}
+.topbar-right i{
+    padding-right: 5px;
+}
+.topbar-right a{
+    color: rgb(244, 200, 39);
+}
+ .fa-house:active{
+    color: white;
+    background-color:  rgb(244, 200, 39);
+}
+.topbar-right i{
+    color: white;
+}
+h1{
+    font-size: 35px;
+    color:  white;
+    padding-bottom: 10px;
+}
+
+#image{
+    width:500px;
+}
+.love{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    color: white;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+ 
+    
+}
+
+.Banner{
+    padding-left: 200px;
+
+}
+.contact-left{
+    width: 45%;
+}
+.contact-right{
+    width: 45%;
+}
+#name,#email{
+background-color: white;
+width: 500px;
+height:30px;
+border-radius: 5px;
+border: none;
+
+}
+#msg{
+    background-color: white;
+    width: 500px;
+    height:70px;
+    border-radius: 5px;
+    border: none;
+   
+}
+#submit{
+    width: 150px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(233, 205, 104);
+    color: white;
+    font-weight: bold;
+}
+#mail{
+    border: 1px solid black;
+    background-color:rgb(233, 205, 104);
+    color: white;
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+h2{
+    color: #1270ea;;
+}
+.input ::placeholder{
+ opacity: 0.5;
+ padding-left: 10px;
+ font-size: small;
+ margin: 0;
+
+}
+.input label{
+    padding-bottom: 20px;
+
+}
+.topbar{
+    width: 100%;
+}

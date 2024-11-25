@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Poppins;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.topbar{
+    display:flex;
+    background-color:  #1995AD;
+    margin:auto;
+    padding: 3px;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar-left{
+    font-size: 40px;
+    color: white;
+}
+.sri{
+    color: rgb(244, 200, 39);
+}
+
+.topbar-right ul{
+    display: flex;
+    gap:20px;
+     
+}
+.topbar-right i{
+    padding-right: 5px;
+}
+.topbar-right a{
+    color: rgb(244, 200, 39);
+}
+ .fa-house:active{
+    color: white;
+    background-color:  rgb(244, 200, 39);
+}
+.topbar-right i{
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  #A1D6E2;
+    /*background-image: linear-gradient(#A1D6E2, #F1F1F2 );*/
+    font-family:poppins;
+}
+h1{
+    padding-top: 10px;
+    font-size: 40px;
+    color: #1995AD;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card-img-top {
+    height: 180px;
+
+}
+.card{
+    border:2px solid #1995AD;
+}
+.card-title{
+    color: #1995AD;
+}
+.card-body{
+    
+}
+.card-text{
+    background-color: rgb(233, 205, 104);;
+}
+.love{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
